@@ -1,5 +1,5 @@
 # 【架空サイト】フランスパン専門店　FRANCE BEKERY FACTORY  
-### コーディングファイルは「dist」・「src」です。
+### コーディングファイルは「dist」・「src」・「gulpfile.js」「package.json」「package-lock.json」です。
 どちらともダウンロードしていただいた上でご確認下さい。  
 ※「npm i -D」をターミナルで入力してください。  
 ※「gulp」をターミナルで入力すると、gulpタスクが始まります。  
