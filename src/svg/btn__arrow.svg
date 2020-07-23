@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40.164" height="7.064" viewBox="0 0 40.164 7.064">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+      }
+    </style>
+  </defs>
+  <path id="btn__arrow" class="cls-1" d="M2862.708,1329h40l-17.545-6.092" transform="translate(-2862.708 -1322.436)"/>
+</svg>

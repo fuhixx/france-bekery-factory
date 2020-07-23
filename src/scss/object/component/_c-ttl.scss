@@ -1,0 +1,19 @@
+/*---------------------------------
+
+ttl
+
+---------------------------------*/
+.c-ttl {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: pxtovwSmall(120);
+  margin: pxtovwSmall(40) auto pxtovwSmall(26);
+  border-bottom: 1px solid $bright-brown;
+  &__h1 {
+    font-size: $big;
+    font-weight: bold;
+    margin-bottom: pxtovwSmall(6);
+    color: $brown;
+  }
+}

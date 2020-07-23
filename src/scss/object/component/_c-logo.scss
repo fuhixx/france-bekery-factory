@@ -1,0 +1,35 @@
+/*---------------------------------
+
+logo
+
+---------------------------------*/
+.c-logo {
+  margin-top: pxtovwSmall(-27);
+  &__inner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  &__img {
+    display: block;
+    width: pxtovwSmall(110);
+    height: pxtovwSmall(81);
+  }
+  &__h1 {
+    font-size: pxtovwSmall(22);
+
+    margin-top: pxtovwSmall(5);
+    color: $brown;
+  }
+  &__h2 {
+    font-size: pxtovwSmall(11);
+
+    margin-top: pxtovwSmall(5);
+    color: $brown;
+  }
+  &__span {
+    font-size: $small;
+    line-height: 0.8;
+  }
+}

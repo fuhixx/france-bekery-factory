@@ -1,0 +1,69 @@
+/*---------------------------------
+
+allergiesTable
+
+---------------------------------*/
+%p-tableAllergies {
+  font-size: pxtovwSmall(14);
+  font-weight: bold;
+  border-collapse: collapse;
+}
+
+.p-tableAllergies {
+  width: 100%;
+
+  @extend %p-tableAllergies;
+
+  // th & td style
+  %__thtd {
+    text-align: center;
+    vertical-align: middle;
+    border: 3px solid $pure-white;
+  }
+
+  &__th {
+    height: 62px;
+
+    @extend %p-tableAllergies;
+    @extend %__thtd;
+  }
+
+  &__td {
+    font-size: pxtovwSmall(14);
+    line-height: 1.7;
+    width: 25%;
+    height: 101px;
+    padding-right: 2%;
+    padding-left: 2%;
+
+    @extend %p-tableAllergies;
+    @extend %__thtd;
+  }
+
+  &__txt {
+    color: $white;
+  }
+
+  &__img {
+    display: inline-block;
+  }
+
+  .-wd {
+    width: 50%;
+  }
+
+  .-color {
+    color: $brown;
+    background-color: $white;
+  }
+
+  .-color2 {
+    color: $brown;
+    background-color: $bright-brown;
+  }
+
+  .-color3 {
+    color: $white;
+    background-color: $brown;
+  }
+}

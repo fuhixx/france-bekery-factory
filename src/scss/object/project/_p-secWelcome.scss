@@ -1,0 +1,25 @@
+/*---------------------------------
+
+secWelcome
+
+---------------------------------*/
+.p-secWelcome {
+  margin-bottom: pxtovwSmall(40);
+  padding: pxtovwSmall(24) pxtovwSmall(50);
+  background-color: $white;
+  &__inner {
+    width: $text-max;
+    margin: 0 auto;
+  }
+  &__h1 {
+    font-size: pxtovwSmall(16);
+    font-weight: bold;
+    text-align: center;
+    color: $brown;
+  }
+  &__txt {
+    font-size: pxtovwSmall(14);
+    text-align: center;
+    color: $brown;
+  }
+}

@@ -1,0 +1,65 @@
+/*---------------------------------
+
+top
+
+---------------------------------*/
+.p-top {
+  position: relative;
+  height: pxtovwSmall(266);
+  margin-top: pxtovwSmall(30);
+  // inner
+  &__inner {
+    position: absolute;
+    z-index: 2;
+  }
+  &__txt {
+    font-size: $big;
+    font-weight: bold;
+    position: absolute;
+    margin-top: pxtovwSmall(6);
+    margin-left: pxtovwSmall(6);
+    color: $white;
+  }
+  &__span {
+    font-size: $small;
+    margin-top: pxtovwSmall(6);
+  }
+  &__triangle {
+    width: 0;
+    border-width: pxtovwSmall(76) pxtovwSmall(184) 0 0;
+    border-style: solid;
+    border-color: $redOpacity transparent;
+  }
+  // inner2
+  &__inner2 {
+    position: absolute;
+    z-index: 2;
+    left: 306px;
+  }
+  &__summa {
+    font-size: $very-big;
+    position: relative;
+    letter-spacing: pxtovwSmall(5);
+    color: $white;
+    writing-mode: vertical-rl;
+  }
+  &__span2 {
+    display: inline-block;
+    margin-top: pxtovwSmall(-8);
+    margin-left: pxtovwSmall(8);
+    background-color: $brownOpacity;
+  }
+
+  &__span3 {
+    display: inline-block;
+    margin-top: pxtovwSmall(128);
+    background-color: $brownOpacity;
+  }
+
+  &__img {
+    position: absolute;
+    z-index: 1;
+    width: 200px;
+    height: 200px;
+  }
+}

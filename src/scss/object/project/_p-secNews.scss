@@ -1,0 +1,26 @@
+/*---------------------------------
+
+secNews
+
+---------------------------------*/
+.p-secNews {
+  margin: 0 auto;
+  &__inner {
+    width: pxtovwSmall(300);
+    height: pxtovwSmall(129);
+    margin: 0 auto;
+    margin-bottom: pxtovwSmall(40);
+    padding: pxtovwSmall(8);
+    border: 1px solid $brown;
+  }
+  &__p {
+    font-size: $small;
+    text-align: center;
+    color: $brown;
+  }
+  &__span {
+    font-size: $small;
+    font-weight: bold;
+    color: $bright-red;
+  }
+}

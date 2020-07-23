@@ -1,0 +1,38 @@
+/*---------------------------------
+
+ttlRank
+
+---------------------------------*/
+.c-ttlRank {
+  display: flex;
+  width: pxtovwSmall(192);
+  margin: 0 auto;
+  &__inner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  &__h2 {
+    font-size: pxtovwSmall(16);
+    font-weight: bold;
+    margin-bottom: pxtovwSmall(5);
+    color: $bright-red;
+  }
+  &__h3 {
+    font-size: pxtovwSmall(14);
+    font-weight: bold;
+    color: $brown;
+  }
+  &__imgleft {
+    width: pxtovwSmall(28);
+    height: pxtovwSmall(52);
+    margin-right: pxtovwSmall(12);
+  }
+  &__imgright {
+    width: pxtovwSmall(28);
+    height: pxtovwSmall(52);
+    margin-left: pxtovwSmall(12);
+  }
+}

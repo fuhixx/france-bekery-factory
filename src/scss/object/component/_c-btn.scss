@@ -1,0 +1,50 @@
+/*---------------------------------
+
+btn
+
+---------------------------------*/
+.c-btn {
+  position: relative;
+  // svg
+  &__bg {
+    position: relative;
+    width: pxtovwSmall(400);
+    height: pxtovwSmall(70);
+  }
+  &__svg {
+    width: 100%;
+    height: 100%;
+  }
+  // txt
+  &__inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    // fix height
+    height: pxtovwSmall(77);
+    // end
+    margin: auto;
+    background-color: red($color: #000);
+  }
+  &__txt {
+    font-size: $very-big;
+    font-weight: bold;
+
+    color: $brown;
+  }
+}
+// animation
+@keyframes line {
+  0% {
+    stroke-opacity: 1;
+  }
+  50% {
+  }
+  100% {
+    stroke-opacity: 0.5;
+  }
+}

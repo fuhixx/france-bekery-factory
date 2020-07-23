@@ -1,0 +1,32 @@
+/*---------------------------------
+
+hd
+
+---------------------------------*/
+
+.p-hd {
+  height: pxtovwSmall(194);
+
+  &__inner {
+    position: relative;
+    width: pxtovwSmall(146);
+    height: pxtovwSmall(94);
+  }
+
+  &__txt {
+    font-size: $big;
+    font-weight: bold;
+    position: absolute;
+    z-index: 2;
+    top: pxtovwSmall(10);
+    left: pxtovwSmall(6);
+    color: $white;
+  }
+  &__triangle {
+    position: absolute;
+    z-index: 1;
+    border-width: pxtovwSmall(94) pxtovwSmall(146) 0 0;
+    border-style: solid;
+    border-color: $bright-brown transparent;
+  }
+}
